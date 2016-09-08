@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bitmap">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first"
+        android:id="@+id/textView" />
+
+    <Button
+        android:text="@string/view1_send"
+        android:id="@+id/view1_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/view1_cancel"
+        android:id="@+id/view1_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/view1_send"
+        android:layout_toRightOf="@+id/view1_send"
+        android:layout_toEndOf="@+id/view1_send"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <!--下面使用layer-list 显示图片 -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/layer"
+        android:layout_alignTop="@+id/view1_cancel"
+        android:layout_toRightOf="@+id/view1_cancel"
+        android:layout_toEndOf="@+id/view1_cancel"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:id="@+id/imageView3" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/view1_imageV"
+        android:src="@drawable/level"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/starOn"
+        android:id="@+id/view1_starOn_button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/starOff"
+        android:id="@+id/view1_starOff_button"
+        android:layout_alignBottom="@+id/view1_starOn_button"
+        android:layout_toRightOf="@+id/view1_starOn_button"
+        android:layout_toEndOf="@+id/view1_starOn_button"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/view1_imageV2"
+        android:src="@drawable/transition"
+        android:layout_alignTop="@+id/view1_imageV"
+        android:layout_toRightOf="@+id/view1_send"
+        android:layout_toEndOf="@+id/view1_send" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view1_imageV3"
+        android:layout_below="@+id/view1_starOn_button"
+        android:layout_marginTop="15dp" />
+    
+
+
+
+</RelativeLayout>

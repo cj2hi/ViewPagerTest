@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ViewPagerTest</string>
+    <string name="first">第一个界面</string>
+    <string name="fourth">第四个界面</string>
+    <string name="third">第三个界面</string>
+    <string name="second">第二个界面</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="view1_cancel">取消通知</string>
+    <string name="view1_send">发送通知</string>
+    <string name="menu_item1">菜单选项1</string>
+    <string name="menu_item2">菜单选项2</string>
+    <string name="getWebImage">获取网络图片</string>
+    <string name="starOn">点亮星星</string>
+    <string name="starOff">熄灭星星</string>
+</resources>
