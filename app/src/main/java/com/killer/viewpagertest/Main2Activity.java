@@ -6,6 +6,9 @@ import android.view.MotionEvent;
 import android.widget.ImageView;
 import android.widget.ViewFlipper;
 
+/**
+ * viewFlipper演示
+ */
 public class Main2Activity extends AppCompatActivity {
 
     private ViewFlipper viewFlipper;

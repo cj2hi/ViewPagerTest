@@ -14,4 +14,8 @@
     <string name="getWebImage">获取网络图片</string>
     <string name="starOn">点亮星星</string>
     <string name="starOff">熄灭星星</string>
+    <string name="phoneNumber">请输入要查询归属地的手机号码：</string>
+    <string name="searchPhoneNumber">查询归属地</string>
+    <string name="search_error">查询出错</string>
+    <string name="city_name">请输入要查询的中国城市名：</string>
 </resources>

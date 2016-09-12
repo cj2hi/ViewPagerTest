@@ -38,23 +38,27 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
         View view2 = View.inflate(this,R.layout.view2,null);
         View view3 = View.inflate(this,R.layout.view3,null);
         View view4 = View.inflate(this,R.layout.view4,null);
+        View view5 = View.inflate(this,R.layout.view5,null);
 
         viewLIst.add(view1);
         viewLIst.add(view2);
         viewLIst.add(view3);
         viewLIst.add(view4);
+        viewLIst.add(view5);
 
         titleList = new ArrayList<>();
         titleList.add("第一页");
         titleList.add("第二页");
         titleList.add("第三页");
         titleList.add("第四页");
+        titleList.add("第五页");
 
         fragmentList = new ArrayList<>();
         fragmentList.add(new Fragment1());
         fragmentList.add(new Fragment2());
         fragmentList.add(new Fragment3());
         fragmentList.add(new Fragment4());
+        fragmentList.add(new Fragment5());
 
 
 
