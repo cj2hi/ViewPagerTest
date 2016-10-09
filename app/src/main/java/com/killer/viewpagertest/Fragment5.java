@@ -17,7 +17,7 @@ import com.killer.service.AddressService;
 import com.killer.service.WeatherService;
 
 
-/**
+/**查询手机归属地和城市天气情况
  * A simple {@link Fragment} subclass.
  */
 public class Fragment5 extends Fragment implements View.OnClickListener{

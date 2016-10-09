@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
 
         viewPager.setAdapter(adapter2);
 
-        viewPager.setOnPageChangeListener(this);
+        viewPager.addOnPageChangeListener(this);
 
 
 
